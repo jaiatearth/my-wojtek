@@ -3,7 +3,6 @@
 ### Tech
 * [Javascript]
 * [ReactJS] - UI F/W
-* [VS CODE Editor] - Code Editor
 * [Webpack] - Module Bundler
 * [lodash] - Javascript Utility Library
 * [less] - For styles
