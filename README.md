@@ -25,5 +25,6 @@ $ npm test
  - Name can be searched via Autosuggestion or Free text also.
 
 
+![alt text](https://github.com/jaiatearth/my-wojtek/blob/master/my-wojtek.png)
 
 
