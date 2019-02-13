@@ -67,11 +67,11 @@ class AutoSuggestion extends React.Component {
       });
   };
 
+// Check for characters otehr than alphanumeric | hyphen | space..
   handleKeyPress(e){
     e.currentTarget.style.outline = 'none';
     e = e || window.event;
     var charCode = e.keyCode || e.which;
-    // var charStr = String.fromCharCode(charCode);
     let isValid = (e.charCode >= 48 && e.charCode <= 57) || (e.charCode >= 65 && e.charCode <= 90) || (e.charCode >= 97 && e.charCode <=122) || (e.charCode == 32) || (e.charCode == 45);
     isValid ? e.currentTarget.style.border = '1px solid #000' : e.currentTarget.style.border = '1px solid red';
   }
