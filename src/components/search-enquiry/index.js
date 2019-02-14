@@ -69,7 +69,7 @@ class SearchEnquiry extends Component {
     getResult(){
         const beerName = (document.getElementById("autocomplete-text").value).split(' ').join('_') ;
         const { allBeersWithName } = this.state;
-        fetch('https://api.punkapi.com/v2/beers?beer_name='+beerName)
+        fetch(config.getAllBeersNameAPI+beerName)
             .then(response => response.json())
             .then(allBeersWithName => this.setState({ allBeersWithName },
                 () => {
